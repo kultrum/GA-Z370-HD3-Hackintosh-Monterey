@@ -15,11 +15,17 @@ After installation and put the correct EFI folder, it is necessary to remap USB 
 
 I leave the EFI repository that works with my PC (dsdt.aml made by MaLd0n!) ... specs:
 
+
 Motherboard Gigabyte Z370-HD3
+
 Intel i5 8400
+
 iGPU (Intel Graphics UHD 630)
+
 Nvme SSD WD 250 GB
+
 WIFI TP-Link TL-WDN4800 N900 (PCI)
+
 
 Fill in PlatformInfo in config.plist to iMac19,2
 
