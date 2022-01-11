@@ -27,5 +27,6 @@ Nvme SSD WD 250 GB
 WIFI TP-Link TL-WDN4800 N900 (PCI)
 
 
+
 Fill in PlatformInfo in config.plist to iMac19,2
 
