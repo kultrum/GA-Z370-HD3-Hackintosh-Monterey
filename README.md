@@ -13,8 +13,7 @@ Some important tip: it is necessary to add boot argument in opencore config file
 
 After installation and put the correct EFI folder, it is necessary to remap USB ports (guide is in Olarila web)
 
-I leave the EFI repository that works with my PC (dsdt.aml made by MaLd0n!)[EFI.zip](https://github.com/kultrum/GA-Z370-HD3-Hackintosh-Monterey/files/7847201/EFI.zip)
-... specs:
+I leave the EFI repository that works with my PC (dsdt.aml made by MaLd0n!) ... specs:
 
 Motherboard Gigabyte Z370-HD3
 Intel i5 8400
