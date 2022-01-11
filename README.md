@@ -10,6 +10,7 @@ From the genius of MaLd0n
 I made the USB for install MacOS Montery following the guide, previously downloading the macos image frome Olarila
 
 Some important tip: it is necessary to add boot argument in opencore config file -igfxvesa for the install works
+
 After installation and put the correct EFI folder, it is necessary to remap USB ports (guide is in Olarila web)
 
 I leave the EFI repository that works with my PC (dsdt.aml made by MaLd0n!)[EFI.zip](https://github.com/kultrum/GA-Z370-HD3-Hackintosh-Monterey/files/7847201/EFI.zip)
@@ -23,22 +24,3 @@ WIFI TP-Link TL-WDN4800 N900 (PCI)
 
 Fill in PlatformInfo in config.plist to iMac19,2
 
-To make the graphics card works with full acceleration, use this video patch (it's included in EFI config.plist):
-
-<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-            <dict>
-                <key>AAPL,ig-platform-id</key>
-                <data>BwCbPg==</data>
-                <key>framebuffer-con0-enable</key>
-                <data>AQAAAA==</data>
-                <key>framebuffer-con0-type</key>
-                <data>AAgAAA==</data>
-                <key>framebuffer-con1-enable</key>
-                <data>AQAAAA==</data>
-                <key>framebuffer-con1-type</key>
-                <data>BAAAAA==</data>
-                <key>framebuffer-patch-enable</key>
-                <data>AQAAAA==</data>
-                <key>framebuffer-stolenmem</key>
-                <data>AAAwAQ==</data>
-            </dict> 
